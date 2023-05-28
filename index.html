@@ -1,0 +1,96 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+   <title>  </title>
+   <style>
+       body {
+             margin:0px;
+             padding:0px;
+             background:teal;
+             Font-family:sans-serif;
+             text-transform:capitalize;
+            }
+     .frame {/*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset ;*/
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+              cursor:pointer;
+              height: 180px;
+              width:160px;
+              background: white;          
+              border-radius:50%;
+              backface-visibility: hidden;
+              overflow:scroll;   
+              margin:10px auto;                             
+              border:0px solid black;
+              border-radius:50%;
+              text-align:center;
+            }
+    .frame:hover {
+               height:220px;
+               width:240px;
+               border-radius:3px;
+               transition-duration:2s;
+              }
+      
+       img {
+             height:180px;
+             width:100%;
+            }
+    .frame:hover > img {
+              height:220px; 
+              transition-duration:2s;
+           }
+      h3 {
+   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+   /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
+    /*  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+          /* top:50%;*/
+           font-size:22px;
+         /*  position:absolute;     */  
+           border-radius:3px;
+           margin:0 auto;
+           padding:10px;
+           width:90%;
+           color:Yellowgreen;
+           text-align:center;
+         }
+   
+   @media only screen and (min-width: 600px) {
+         h3 {width:50%;  }
+      }
+      
+   </style>
+</head>
+<body>
+       
+         <div class="frame"> 
+               <img src="Som.jpg">
+        </div>
+           
+        <h3> Hello! I Am 
+           <span class="ityped"> </span>
+       </h3>
+          
+
+
+
+
+
+
+
+      <script src="https://unpkg.com/ityped@0.0.10">
+      </script>
+ 
+
+
+
+
+      <script>
+            window.ityped.init(document.querySelector('.ityped'),{
+           strings:['somnath pal','a web developer..','a web designer..','Font End Devloper..'],
+                loop: true
+             })
+     </script>
+</body>
+</html>
