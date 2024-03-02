@@ -7,7 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Domine:wght@400;500;600&family=Lato:wght@300;400&family=Montserrat:wght@200;300;400&family=Open+Sans:wght@300;400;600&family=PT+Sans:ital@0;1&family=Playfair+Display:wght@400;500&family=Quicksand:wght@300;400;500&family=Roboto:wght@300;400&display=swap" rel="stylesheet">         
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>  @MY CV  </title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">          
+    <title>  MY CV  </title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -36,7 +37,23 @@
       <!--------------------------NAVBAR CLOSE------------------------------------->
 
       <section id="hero"> <!-----------------HERO section OPEN------------------------------->
-   
+               <div class="wrapper">
+                     <span> Hii, I Am  <span class="multiText"> </span></span>
+              </div>
+			 <div class="icon">
+                <a class="fa-brands fa-facebook" href="#" title="Facebook">   </a>
+                <a class="fa-brands fa-twitter"  href="#" title="Twitter">   </a>
+                <a class="fa-brands fa-instagram"href="#" title="Intagram">   </a>
+                <a class="fa-brands fa-whatsapp" href="#" title="Whatsapp">   </a>
+                <a class="fa-brands fa-telegram" href="#" title="Telegram">   </a>
+          </div>
+           <div class="btn">
+               <a href="#" title="Download"> Download Cv  </a>
+           </div>
+
+           <div class="down">
+               <a href="#about" class="fa-solid fa-angle-down" title="scroll-down">  </a>
+           </div>
      </section>   <!-----------------HERO section CLOSE-------------------------------> 
 	 
 	  
@@ -99,6 +116,18 @@
            easing: 'ease', // default easing for AOS animations 
 	  });
 	 
+   </script>
+   
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+   <script>          
+      var typed = new Typed('.multiText', {
+      strings: ["Somnath.", "Developer.", "Web Designer.",],
+      loop: true, 
+      typeSpeed: 200 , 
+      backSpead: 150 , 
+      startDelay: 500, 
+      backDelay: 1000, 
+     });
    </script>
 </body>
 </html>
