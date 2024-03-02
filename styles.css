@@ -128,11 +128,67 @@
 
 	#hero {
 	   width:100vw;
-	   height:100vh;
+	   min-height:100vh;
 	   background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 	   overflow:hidden;
+	   position:relative;
+       display:flex;
+       Flex-direction:column;
+       justify-content:center;
+       align-items:center;
+       gap:20px;
+       max-height:520px;
+     /*  background-image:url('images/me.jpg');
+       background-size:cover;
+       background-repeat:no-repeat;
+       object-fit:fill;
+       background-position:center; */
 	}
-	
+   span{
+        font-size:1.50rem ;
+        letter-spacing:1px;
+        color:#e6e1ed;
+        text-align:center;
+      }
+  .multiText {
+         color:#82d12e;
+         font-size:1.80rem;
+         font-weight: ;
+       }
+	section > .icon > a  { 
+         font-size:28px;
+         text-decoration:none;
+         padding:10px;
+         background:#f9f9f9;
+         color:black;
+         border-radius:50%;
+         margin:20px 5px;
+		 box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      }
+    section > .btn > a {
+         background:#5e2bff;
+         padding:10px 30px;
+         text-decoration:none;   
+         color:#ffffff;  
+         border-radius:20px;
+		 box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+       }
+    .down > a {
+         position:absolute;
+         bottom:10%;
+         left:47%;
+         font-size:30px;
+         color:#ffffff;
+         text-decoration:none;
+         background:coral;
+         padding:10px;
+         border-radius:50%;
+		 box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+       }   
+	   
+	   
+	   
+	   
 	#about {
 	     width:100vw;
 	     height:100vh;
